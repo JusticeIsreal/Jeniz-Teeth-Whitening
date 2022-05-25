@@ -1,0 +1,19 @@
+{
+  "cSpell.words": [
+    "validateaddress",
+    "validateemail",
+    "validateform",
+    "validatephone"
+  ],
+  "liveServer.settings.multiRootWorkspaceName": "Second bootstrap",
+  "liveServer.settings.port": 5501,
+  "debug.allowBreakpointsEverywhere": true,
+  "files.autoGuessEncoding": true,
+  "files.exclude": {
+    "**/.vscode": true,
+    "compile_commands.json": true,
+    "*.hrccproj": true,
+    "*.sln": true,
+    "*.suo": true
+  }
+}
