@@ -638,7 +638,7 @@ input {
   .home .content {
     width: auto;
     margin-bottom: -105px;
-    z-index: 2;
+    z-index: 3;
   }
 }
 
@@ -679,7 +679,6 @@ input {
     margin-right: auto;
     margin-top: -250px !important;
     margin-bottom: -150px;
-
     z-index: 2;
   }
 
