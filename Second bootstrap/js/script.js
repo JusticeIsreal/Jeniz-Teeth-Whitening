@@ -9,12 +9,15 @@ window.addEventListener('scroll', () => {
   let content3 = document.querySelector('.contact');
   let content4 = document.querySelector('.footer');
   let content5 = document.querySelector('.services');
+  
   let contentPosition = content.getBoundingClientRect().top;
   let contentPosition1 = content1.getBoundingClientRect().top;
   let contentPosition2 = content2.getBoundingClientRect().top;
   let contentPosition3 = content3.getBoundingClientRect().top;
   let contentPosition4 = content4.getBoundingClientRect().top;
   let contentPosition5 = content5.getBoundingClientRect().top;
+
+
   let screenPosition = window.innerHeight / 1;
   if(contentPosition < screenPosition){
     content.classList.add('act');
